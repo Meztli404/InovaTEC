@@ -1,0 +1,28 @@
+div.barra{
+    padding: 20px;
+    background-color: #38A3A5;
+    height: auto;
+    text-align: center;
+}
+div.barra .icono{
+    width: 3em;
+    margin: auto;
+}
+@media only screen and (max-width:600px) {
+    div.barra .icono{
+        width: 50%;
+    }
+    div.barra {
+        text-align: center;
+    }
+    
+}
+div.barra a{
+    margin: 0 10px ;
+}
+.ip{
+    background-image: url("../Recursos/hombrenegocios.jpg");
+    height: 100dvh;
+    background-position: center;
+    background-size: cover;
+}
